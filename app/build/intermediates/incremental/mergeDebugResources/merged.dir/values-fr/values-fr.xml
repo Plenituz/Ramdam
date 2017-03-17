@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="action_settings">Paramètres</string>
+    <string name="app_name">Ramdam</string>
+    <string name="errorText">Il y a eut une erreur</string>
+    <string name="podcast">Podcast</string>
+    <string name="searching">Recherche de l\'URL...</string>
+</resources>
