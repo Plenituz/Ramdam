@@ -8,7 +8,6 @@ import android.graphics.Paint;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.Message;
-import android.util.Log;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.RelativeLayout;
@@ -17,12 +16,6 @@ import android.widget.Toast;
 
 import com.plenituz.ramdam.utils.P;
 import com.plenituz.ramdam.utils.SoundPlayer;
-
-import org.jsoup.Jsoup;
-import org.jsoup.nodes.Document;
-import org.jsoup.nodes.Element;
-
-import java.io.IOException;
 
 public class MainActivity extends Activity {
 
@@ -98,17 +91,20 @@ public class MainActivity extends Activity {
         new Thread(new Runnable() {
             @Override
             public void run() {
-                try {
-                    Document doc = Jsoup.connect(PAGE_URL).get();
+               // try {
+                    /*Document doc = Jsoup.connect(PAGE_URL).get();
                     Element element = doc.getElementById("jquery_jplayer_2");
                     String s = element.attr("data-mp3");
                     Log.v("attr", s);
-                    RADIO_URL = s;
+                    RADIO_URL = s;*/
+                    //CHANGE THE RADIO URL HERE IF YOU HAVE TO CHANGE IT MANUALLY
+                    //I KEEP THE REST OF THE CODE IN CASE THE WEBSITE COMES BACK UP
+                    RADIO_URL = "http://5.196.67.109:8000/live.mp3";
                     playView.setOnClickListener(playViewOnClick());
                     handler.sendEmptyMessage(HIDE_TEXT);
-                } catch (IOException e) {
+               /*} catch (IOException e) {
                     e.printStackTrace();
-                }
+                }*/
             }
         }).start();
     }

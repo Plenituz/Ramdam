@@ -2,32 +2,94 @@
 <items version="2" >
 
     <item
-        jar="C:\Users\Plenituz\AndroidstudioProjects\Ramdam\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\jars\classes.jar"
+        is-multidex="false"
+        jar="C:\Users\Plenituz\.android\build-cache\40169af0085068164c227e333201396c0d16922e\output\jars\classes.jar"
         jumboMode="false"
-        revision="23.0.2"
+        optimize="true"
+        revision="25.0.0"
         sha1="6cbc7773921fcfedbe55657578f0cbfe614778dc">
-        <dex dex="C:\Users\Plenituz\AndroidstudioProjects\Ramdam\app\build\intermediates\pre-dexed\release\com.android.support-support-v4-23.1.1_0494c05866983a20518ca77fcf9b3fe42ee5426d.jar" />
+        <dex dex="C:\Users\Plenituz\AndroidstudioProjects\Ramdam\app\build\intermediates\pre-dexed\release\classes_dffb79aa61665b277c5867c8803ddbf3f0ac05bb.jar" />
     </item>
     <item
-        jar="C:\Users\Plenituz\AndroidstudioProjects\Ramdam\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\jars\libs\internal_impl-23.1.1.jar"
-        jumboMode="false"
-        revision="23.0.2"
-        sha1="a4de9c81ae239414e1ed0f86441b02abaf29bca9">
-        <dex dex="C:\Users\Plenituz\AndroidstudioProjects\Ramdam\app\build\intermediates\pre-dexed\release\internal_impl-23.1.1_b8b11fbb8484cbd9d50e533fc7cb17237d0a9619.jar" />
-    </item>
-    <item
+        is-multidex="true"
         jar="C:\Users\Plenituz\.gradle\caches\modules-2\files-2.1\org.jsoup\jsoup\1.8.1\1eb6690b0c629d7000c77a72df5e822fb974f521\jsoup-1.8.1.jar"
-        jumboMode="false"
-        revision="23.0.2"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
         sha1="1eb6690b0c629d7000c77a72df5e822fb974f521">
-        <dex dex="C:\Users\Plenituz\AndroidstudioProjects\Ramdam\app\build\intermediates\pre-dexed\debug\jsoup-1.8.1_f95c37b24ba752ba1354b70022b8ddb2c028c106.jar" />
+        <dex dex="C:\Users\Plenituz\AndroidstudioProjects\Ramdam\app\build\intermediates\transforms\dex\debug\folders\1000\10\jsoup-1.8.1_f95c37b24ba752ba1354b70022b8ddb2c028c106\classes.dex" />
     </item>
     <item
+        is-multidex="true"
+        jar="C:\Users\Plenituz\.android\build-cache\40169af0085068164c227e333201396c0d16922e\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="6cbc7773921fcfedbe55657578f0cbfe614778dc">
+        <dex dex="C:\Users\Plenituz\AndroidstudioProjects\Ramdam\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_dffb79aa61665b277c5867c8803ddbf3f0ac05bb\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
         jar="C:\Users\Plenituz\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\23.1.1\support-annotations-23.1.1.jar"
         jumboMode="false"
-        revision="23.0.2"
+        optimize="true"
+        revision="25.0.0"
         sha1="8d680ba5a623724d1fb0e81c36a790f023a6cede">
-        <dex dex="C:\Users\Plenituz\AndroidstudioProjects\Ramdam\app\build\intermediates\pre-dexed\debug\support-annotations-23.1.1_fa8f600059f9e7c4516f2b9b23e254e04b180b00.jar" />
+        <dex dex="C:\Users\Plenituz\AndroidstudioProjects\Ramdam\app\build\intermediates\pre-dexed\release\support-annotations-23.1.1_fa8f600059f9e7c4516f2b9b23e254e04b180b00.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Plenituz\.gradle\caches\modules-2\files-2.1\org.jsoup\jsoup\1.8.1\1eb6690b0c629d7000c77a72df5e822fb974f521\jsoup-1.8.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="1eb6690b0c629d7000c77a72df5e822fb974f521">
+        <dex dex="C:\Users\Plenituz\AndroidstudioProjects\Ramdam\app\build\intermediates\pre-dexed\release\jsoup-1.8.1_f95c37b24ba752ba1354b70022b8ddb2c028c106.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Plenituz\AndroidstudioProjects\Ramdam\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="cfebfb82bce996a8a801794f9c048895787cb809">
+        <dex dex="C:\Users\Plenituz\AndroidstudioProjects\Ramdam\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_24385f9984ef604d5d6403c6c329867ae25c8909\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Plenituz\AndroidstudioProjects\Ramdam\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="c82741bc129dd5f99f11a4ab8666ae24262053b6">
+        <dex dex="C:\Users\Plenituz\AndroidstudioProjects\Ramdam\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_6f21f8fe93d4467971d7b0a6b9df76d66e42c68d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Plenituz\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\23.1.1\support-annotations-23.1.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="8d680ba5a623724d1fb0e81c36a790f023a6cede">
+        <dex dex="C:\Users\Plenituz\AndroidstudioProjects\Ramdam\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-23.1.1_fa8f600059f9e7c4516f2b9b23e254e04b180b00\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Plenituz\.android\build-cache\40169af0085068164c227e333201396c0d16922e\output\jars\libs\internal_impl-23.1.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="a4de9c81ae239414e1ed0f86441b02abaf29bca9">
+        <dex dex="C:\Users\Plenituz\AndroidstudioProjects\Ramdam\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-23.1.1_ea0af4da95fdad9be7a8ae1ade7834ad968dd63e\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Plenituz\.android\build-cache\40169af0085068164c227e333201396c0d16922e\output\jars\libs\internal_impl-23.1.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="a4de9c81ae239414e1ed0f86441b02abaf29bca9">
+        <dex dex="C:\Users\Plenituz\AndroidstudioProjects\Ramdam\app\build\intermediates\pre-dexed\release\internal_impl-23.1.1_ea0af4da95fdad9be7a8ae1ade7834ad968dd63e.jar" />
     </item>
 
 </items>
